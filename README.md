@@ -1,21 +1,22 @@
-Gauss-Jordan Elimination
-This Python script implements the Gauss-Jordan elimination method for solving systems of linear equations. It takes coefficient matrices a and constant vectors b as input and returns the solution(s) or indicates if the system has no solution or infinite solutions.
+# Gauss-Jordan Elimination
 
-Usage
+This Python script implements the Gauss-Jordan elimination method for solving systems of linear equations. It takes coefficient matrices `a` and constant vectors `b` as input and returns the solution(s) or indicates if the system has no solution or infinite solutions.
+
+## Usage
+
 To use this script, follow these steps:
 
-Make sure you have Python installed on your system.
-Install the required dependencies (numpy).
-bash
-Copy code
-pip install numpy
-Copy the gaussjordan function into your project or import it directly.
-Create coefficient matrix a and constant vector b for your system of linear equations.
-Call the gaussjordan function with a and b as arguments.
-Example:
+1. Make sure you have Python installed on your system.
+2. Install the required dependencies (`numpy`).
+    ```bash
+    pip install numpy
+    ```
+3. Copy the `gaussjordan` function into your project or import it directly.
+4. Create coefficient matrix `a` and constant vector `b` for your system of linear equations.
+5. Call the `gaussjordan` function with `a` and `b` as arguments.
 
-python
-Copy code
+Example:
+```python
 import numpy as np
 
 def gaussjordan(a, b):
@@ -28,5 +29,11 @@ a = [[0, 2, 9, 5],
 b = [2, 6, 9, 3]
 
 print(gaussjordan(a, b)) 
-Function Description
-The gaussjordan function performs Gauss-Jordan elimination on the coefficient matrix a and constant vector b. It returns a string describing the steps of the elimination process and the solution(s) if found.
+```
+
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Replace the `[LICENSE](LICENSE)` link with the actual path to your license file if you have one. Save this content in a file named `README.md` in your project directory.
