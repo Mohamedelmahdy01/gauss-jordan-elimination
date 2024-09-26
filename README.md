@@ -32,7 +32,3 @@ print(gaussjordan(a, b))
 ```
 
 
-
----
-
-Replace the `[LICENSE](LICENSE)` link with the actual path to your license file if you have one. Save this content in a file named `README.md` in your project directory.
